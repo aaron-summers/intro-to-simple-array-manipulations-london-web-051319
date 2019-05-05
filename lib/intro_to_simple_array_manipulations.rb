@@ -7,9 +7,16 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  array.pop[-1]
+  array.pop
 end
 
 def pop_with_args(array)
   array.pop(2)
 end
+
+def using_shift(array)
+  element = array.shift 
+  return element
+end
+
+def using_concat
