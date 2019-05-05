@@ -23,3 +23,9 @@ def using_concat(first_array, second_array)
   first_array.concat(second_array)
 end
 
+def using_insert(array, value)
+  array.insert(4, value)
+end
+
+def using_uniq(array)
+  
