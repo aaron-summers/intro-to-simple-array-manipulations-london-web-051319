@@ -28,4 +28,17 @@ def using_insert(array, value)
 end
 
 def using_uniq(array)
+  array.uniq
+end
+
+def using_flatten(array)
+  output = array.flatten
+  return output
+end
+
+def using_delete(array, string)
+  array.delete(string)
+end
+
+def delete_at(array, string)
   
